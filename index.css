@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'avengeroregular';
+    src: url('./fonts/AvengeroRegular/avengeroregular-zvgl-webfont.woff2') format('woff2'),
+         url('./fonts/AvengeroRegular/avengeroregular-zvgl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "avengeroregular";
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div.container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > img {
+    width: 200px;
+    height: auto;
+}
+
+iframe {
+    margin-right: 50px;
+}
+
+.center {
+    text-align: center;
+}
